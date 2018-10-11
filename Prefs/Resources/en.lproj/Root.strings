@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>DEVELOPER</key>
+  <string>Developer</string>
+	<key>FEATURES</key>
+	<string>Features</string>
+  <key>NO_ADS</key>
+  <string>Remove Ads</string>
+  <key>ENABLE</key>
+  <string>Enable</string>
+  <key>PLAY_BACKGROUND</key>
+  <string>Play Audio In Background</string>
+  <key>SHOW_PLAYER_BAR</key>
+  <string>Always Show Player Bar</string>
+  <key>HIDE_RELATED_VIDEOS</key>
+  <string>Hide Related Videos</string>
+  <key>HIDE_CREATOR_ENDSCREEN</key>
+  <string>Hide Creator's Endscreen Video Suggestions</string>
+</dict>
+
+</plist>

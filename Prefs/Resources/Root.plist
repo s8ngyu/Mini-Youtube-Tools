@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+  <string>Mini Youtube Tools</string>
+	<key>items</key>
+	<array>
+
+		<!--Banner-->
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>headerCellClass</key>
+        <string>HBPackageNameHeaderCell</string>
+        <key>packageIdentifier</key>
+        <string>com.peterdev.miniyoutubetools</string>
+        <key>backgroundGradientColors</key>
+      <array>
+				<string>#ED213A</string>
+				<string>#93291E</string>
+      </array>
+        <key>titleColor</key>
+        <string>#ffffff</string>
+        <key>subtitleColor</key>
+        <string>#ffffff</string>
+    </dict>
+
+
+		<!--Credits-->
+		    <dict>
+		    	<key>cell</key>
+		    	<string>PSGroupCell</string>
+		    	<key>label</key>
+		    	<string>DEVELOPER</string>
+		    </dict>
+				<dict>
+					<key>cellClass</key>
+					<string>HBTwitterCell</string>
+					<key>big</key>
+					<true/>
+					<key>height</key>
+					<integer>56</integer>
+					<key>label</key>
+					<string>PeterDev</string>
+					<key>user</key>
+					<string>iospeterdev</string>
+				</dict>
+
+				<!--Enable Toggle-->
+
+						<dict>
+							<key>cell</key>
+							<string>PSGroupCell</string>
+							<key>label</key>
+							<string>ENABLE</string>
+						</dict>
+
+						<dict>
+							<key>cell</key>
+							<string>PSSwitchCell</string>
+							<key>default</key>
+							<true/>
+							<key>defaults</key>
+							<string>com.peterdev.miniyoutubetools</string>
+							<key>key</key>
+							<string>kEnable</string>
+							<key>label</key>
+							<string>ENABLE</string>
+							<key>PostNotification</key>
+							<string>com.peterdev.miniyoutubetools/settingschanged</string>
+						</dict>
+
+				<!--Features Toggle-->
+
+						<dict>
+							<key>cell</key>
+							<string>PSGroupCell</string>
+							<key>label</key>
+							<string>FEATURES</string>
+						</dict>
+						<dict>
+							<key>cell</key>
+							<string>PSSwitchCell</string>
+							<key>default</key>
+							<false/>
+							<key>defaults</key>
+							<string>com.peterdev.miniyoutubetools</string>
+							<key>key</key>
+							<string>kNoAds</string>
+							<key>label</key>
+							<string>NO_ADS</string>
+							<key>PostNotification</key>
+							<string>com.peterdev.miniyoutubetools/settingschanged</string>
+						</dict>
+						<dict>
+							<key>cell</key>
+							<string>PSSwitchCell</string>
+							<key>default</key>
+							<false/>
+							<key>defaults</key>
+							<string>com.peterdev.miniyoutubetools</string>
+							<key>key</key>
+							<string>kPlayBackground</string>
+							<key>label</key>
+							<string>PLAY_BACKGROUND</string>
+							<key>PostNotification</key>
+							<string>com.peterdev.miniyoutubetools/settingschanged</string>
+						</dict>
+						<dict>
+							<key>cell</key>
+							<string>PSSwitchCell</string>
+							<key>default</key>
+							<false/>
+							<key>defaults</key>
+							<string>com.peterdev.miniyoutubetools</string>
+							<key>key</key>
+							<string>kShowPlayerBar</string>
+							<key>label</key>
+							<string>SHOW_PLAYER_BAR</string>
+							<key>PostNotification</key>
+							<string>com.peterdev.miniyoutubetools/settingschanged</string>
+						</dict>
+						<dict>
+							<key>cell</key>
+							<string>PSSwitchCell</string>
+							<key>default</key>
+							<false/>
+							<key>defaults</key>
+							<string>com.peterdev.miniyoutubetools</string>
+							<key>key</key>
+							<string>kHideRelatedVideos</string>
+							<key>label</key>
+							<string>HIDE_RELATED_VIDEOS</string>
+							<key>PostNotification</key>
+							<string>com.peterdev.miniyoutubetools/settingschanged</string>
+						</dict>
+						<dict>
+							<key>cell</key>
+							<string>PSSwitchCell</string>
+							<key>default</key>
+							<false/>
+							<key>defaults</key>
+							<string>com.peterdev.miniyoutubetools</string>
+							<key>key</key>
+							<string>kHideCreatorEndScreen</string>
+							<key>label</key>
+							<string>HIDE_CREATOR_ENDSCREEN</string>
+							<key>PostNotification</key>
+							<string>com.peterdev.miniyoutubetools/settingschanged</string>
+						</dict>
+	</array>
+	<key>title</key>
+	<string>Mini Youtube Tools</string>
+</dict>
+</plist>
