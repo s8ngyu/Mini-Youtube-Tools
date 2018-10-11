@@ -149,6 +149,125 @@
 							<key>PostNotification</key>
 							<string>com.peterdev.miniyoutubetools/settingschanged</string>
 						</dict>
+
+						<!--Tweak Settings-->
+<dict>
+	<key>cell</key>
+	<string>PSGroupCell</string>
+	<key>label</key>
+	<string>TWEAK_SETTING</string>
+	<key>footerText</key>
+	<string>YOU_MIGHT_NEED_TO_APPLY_CHANGES_TWICE</string>
+</dict>
+<dict>
+	<key>action</key>
+	<string>killyoutube:</string>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>label</key>
+	<string>APPLY_CHANGES</string>
+</dict>
+<dict>
+	<key>action</key>
+	<string>respring:</string>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>isDestructive</key>
+	<true/>
+	<key>confirmation</key>
+	<dict>
+		<key>prompt</key>
+		<string>ARE_YOU_SURE_TO_RESPRING</string>
+		<key>title</key>
+		<string>OK</string>
+		<key>okTitle</key>
+		<string>OK_TITLE</string>
+		<key>cancelTitle</key>
+		<string>CANCEL</string>
+	</dict>
+	<key>label</key>
+	<string>RESPRING</string>
+</dict>
+<dict>
+	<key>action</key>
+	<string>resetprefs:</string>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>isDestructive</key>
+	<true/>
+	<key>confirmation</key>
+	<dict>
+		<key>prompt</key>
+		<string>ARE_YOU_SURE_TO_RESET_PREFS</string>
+		<key>title</key>
+		<string>OK</string>
+		<key>okTitle</key>
+		<string>OK_TITLE</string>
+		<key>cancelTitle</key>
+		<string>CANCEL</string>
+	</dict>
+	<key>label</key>
+	<string>RESET_PREFS</string>
+</dict>
+
+
+
+						<!--Links-->
+<dict>
+	<key>cell</key>
+	<string>PSGroupCell</string>
+	<key>label</key>
+	<string>LINKS</string>
+</dict>
+<dict>
+	<key>cellClass</key>
+	<string>HBLinkTableCell</string>
+	<key>icon</key>
+	<string>github@2x.png</string>
+	<key>label</key>
+	<string>Github</string>
+	<key>subtitle</key>
+	<string>SOURCE_CODE</string>
+	<key>url</key>
+	<string>https://github.com/peterprd/KakaoTalk-Tools</string>
+</dict>
+<dict>
+	<key>cellClass</key>
+	<string>HBLinkTableCell</string>
+	<key>icon</key>
+	<string>paypal@2x.png</string>
+	<key>label</key>
+	<string>DONATE_TO_PETERDEV</string>
+	<key>subtitle</key>
+	<string>SUPPORT_ME</string>
+	<key>url</key>
+	<string>https://paypal.me/peterdevkr/</string>
+</dict>
+<dict>
+	<key>cellClass</key>
+	<string>HBLinkTableCell</string>
+	<key>icon</key>
+	<string>email@2x.png</string>
+	<key>label</key>
+	<string>E_MAIL</string>
+	<key>subtitle</key>
+	<string>SEND_BUG_TO_ME</string>
+	<key>url</key>
+	<string>mailto:djperter@icloud.com</string>
+</dict>
+
+<!--CopyRight-->
+<dict>
+	<key>cell</key>
+	<string>PSGroupCell</string>
+	<key>footerAlignment</key>
+	<string>1</string>
+	<key>footerText</key>
+	<string>© PeterDev 2018 - Mini Youtube Tools 0.0.1-BETA</string>
+	<key>isStaticText</key>
+	<true/>
+</dict>
+
 	</array>
 	<key>title</key>
 	<string>Mini Youtube Tools</string>

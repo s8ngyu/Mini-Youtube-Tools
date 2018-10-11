@@ -1,9 +1,9 @@
 Package: com.peterdev.miniyoutubetools
 Name: Mini Youtube Tools
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
-Version: 0.0.1
+Version: 0.0.1-BETA
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: 유튜브를 위한 필수 트윅
 Maintainer: PeterDev <djperter@icloud.com>
 Author: PeterDev <djperter@icloud.com>
 Section: Tweaks

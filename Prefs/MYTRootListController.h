@@ -6,5 +6,7 @@
 #import <spawn.h>
 
 @interface MYTRootListController : HBRootListController
-
+    - (void)killyoutube:(id)sender;
+    - (void)respring:(id)sender;
+    - (void)resetprefs:(id)sender;
 @end
