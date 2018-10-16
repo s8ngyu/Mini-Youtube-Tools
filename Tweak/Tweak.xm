@@ -5,6 +5,22 @@ bool kShowPlayerBar;
 bool kHideRelatedVideos;
 bool kHideCreatorEndScreen;
 
+%hook YTAppDelegate               //DRM
+-(void)appDidBecomeActive:(id)arg1 {
+if ([[NSFileManager defaultManager] fileExistsAtPath:@"/var/lib/dpkg/info/com.peterdev.miniyoutubetools.list"])      //패키지 검사
+{
+  %orig;
+}
+else
+{
+  %orig;
+  UIAlertView *drmalert = [[UIAlertView alloc]initWithTitle:@"Mini Youtube Tools" message:@"You're using pirate version of Mini Youtube Tools, Use the Official version" delegate:self cancelButtonTitle:nil otherButtonTitles:nil];
+
+  [drmalert show];                //DRM메시지 보이기
+}
+}
+%end
+
 %hook YTIPlayerResponse
 -(bool)isMonetized {                   //Remove Ads
   if(kEnable && kNoAds) {
